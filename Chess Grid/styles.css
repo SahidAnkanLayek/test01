@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+img{
+    height: 60px;
+    width: 60px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+body{
+     height: 100vh; 
+    background-color:gray;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; each and every div present inside the cointen */
+    /* justify-content: center;  */
+    /* place-items: center; */
+    display: grid;
+    justify-content: center;/*overall cointener*/
+    align-content: center;
+
+    /* place-items: center; Center both horizontally and vertically */
+    /* height: 100vh; Set a height for the container to center vertically */
+}
+.container{
+    width: 560px;
+    height: 560px;
+    background-color:whitesmoke;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+}
+.box{
+    height: 70px;
+    width: 70px;
+}
+
+.white{
+    background-color: #ECECD0;
+}
+
+.black{
+    background-color: #779557;
+}
+.h1{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-bottom: 20px;
+}

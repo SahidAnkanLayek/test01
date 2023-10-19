@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIRST ASSIGMENT01</title>
+    <style>
+        .first{
+            text-align:center;
+            background-color: aqua;
+            color: rgb(230, 101, 9);
+        }
+        .second{
+            text-align:center;
+            overflow: scroll;
+        }
+        
+        body {
+         width: 100vw;
+        height: 100vh;
+        /* background: url('pic1.jpg'); */
+        background-size: cover;
+        }
+        .button1{
+
+            padding: 10px;
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        #sp{
+            text-align:center;
+            border: 1px solid burlywood;
+            background-image: url('photo02.jpg');
+            background-attachment:fixed;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: contain;
+            
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="first">
+        <h1><b>Login form : </b> Designed by Ankan</h1>
+        <p><h3>Student Login</h3></p>
+    </div>
+
+      
+    <div id="sp">
+        <center>
+            <h1><b>Login</b></h1>
+            <form action="thanks.html" autocomplete="on">
+            Username:<input type="text"name="uname">
+            <br><br>
+            password: <input type="password">
+            <br><br>
+            <button class="button1" type="submit" name="submit">submit</button>
+            <br><br>
+            <p>Forgot Password ? </p>
+            </form>
+        </center>    
+    </div>
+        
+    
+
+</body>
+</html>

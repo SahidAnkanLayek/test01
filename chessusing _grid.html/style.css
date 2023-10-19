@@ -1,0 +1,25 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.body{
+    background-color: #979a9b;
+    height:100vh;
+    display:grid;
+    
+    align-items: center;
+    justify-content: center;
+
+}
+.cointainer{
+    background-color: rgb(47, 235, 9);
+    height:480px;
+    width: 480px;
+    margin:90px 0 50px 500px;
+    border: 2px solid red;
+}
+.column{
+    grid-template-columns: repeat(8,1fr);
+    border: 1px solid black;
+}

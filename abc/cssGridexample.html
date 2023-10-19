@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Example</title>
+    <style>
+      body {
+        font-family: "Courier New", Courier, monospace;
+      }
+      .container {
+        background-color: rgb(179, 228, 14);
+        width: 480px;
+        height: 480px;
+        margin: 90px 0 0 100px;
+        /* border: 3px solid black; */
+        display: grid;
+        
+        /* grid-template-rows: repeat(8, 1fr); */
+      }
+      .row{
+        display:grid;
+        grid-template-rows: repeat(8,2fr);
+        border:2px solid rgb(25, 11, 220);
+      }
+      
+       .row1{
+        border: 5px solid rgb(232, 15, 15);
+        display: grid;
+        grid-template-columns: repeat(8, 2fr);
+         /* grid-template-rows:repeat(8, 2fr) ;  */
+      }
+      .box1{
+        border: 2px solid blueviolet;
+        grid-template-columns: repeat(8, 2fr);
+      }
+
+/*       
+      .row2 {
+        border: 1px solid blue;
+        display: grid;
+        grid-template-columns: repeat(8, 2fr);
+
+      }
+      .row4 {
+        border: 1px solid blue;
+        display: grid;
+        grid-template-columns: repeat(8, 2fr);
+
+      }
+      .row5 {
+        border: 1px solid blue;
+        display: grid;
+        grid-template-columns: repeat(8, 2fr);
+
+      }
+      .row6 {
+        border: 1px solid blue;
+        display: grid;
+        grid-template-columns: repeat(8, 2fr);
+
+      }
+      .row6{
+        border: 1px solid blue;
+        display: grid;
+        grid-template-columns: repeat(8, 2fr);
+
+      }
+      .row7 {
+        border: 1px solid blue;
+        display: grid;
+        grid-template-columns: repeat(8, 2fr);
+
+      }
+      .row8 {
+        border: 1px solid blue;
+        display: grid;
+        grid-template-columns: repeat(8, 2fr);
+
+      }  */
+      
+    </style>
+  </head>
+  <body>
+    <h1>Grid project01</h1>
+
+    <div class="container">
+      <div class="row row1">
+        <div class="box1"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+      </div>
+      <div class="row row2">
+        <div class="box2"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+      </div>
+      <div class="row row3">
+        <div class="box3"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+      </div>
+      <div class="row row4">
+        <div class="box4"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+      </div>
+      <div class="row row5">
+        <div class="box5"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+      </div>
+      <div class="row row6">
+        <div class="box6"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+      </div>
+      <div class="row row7">
+        <div class="box7"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+      </div>
+      <div class="row row7">
+        <div class="box8"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+      </div>
+      
+    </div>
+  </body>
+</html>

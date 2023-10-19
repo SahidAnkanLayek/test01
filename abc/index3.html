@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Login Card</title>
+    <style>
+       
+        /* Designing the total web page*/
+     body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    font-family: Arial, sans-serif;
+    /* Adding background image*/
+    background-image: url('photo02.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size:cover;
+}
+
+.login-card {
+    /* main card designing*/
+    background-color:whitesmoke;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.login-card h2 {
+    margin-top: 2px;
+}
+
+.login-card form {
+    display:flex;
+    flex-direction:column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.login-card input[type="text"], .login-card input[type="password"]{
+    padding: 10px;
+    border: 1px solid #d29a0b;
+    border-radius: 10px;
+    
+}
+
+.login-card button {
+    padding: 10px;
+    /*actual color of the button */
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-card button:hover {
+    /* after clickiing the button the color will be changed to #1dde0f from #007bff; */
+    background-color: #1dde0f;
+}
+
+    </style>
+</head>
+<body>
+   
+    <div class="login-card">
+        <h2>Login</h2>
+        <form action="thanks.html" autocomplete="on">
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>

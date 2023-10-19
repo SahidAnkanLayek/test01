@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>icon</title>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/search.css' rel='stylesheet'>
+    <style>
+         .gg-search {
+ box-sizing: border-box;
+ position: relative;
+ display: block;
+ transform: scale(var(--ggs,1));
+ width: 16px;
+ height: 16px;
+ border: 2px solid;
+ border-radius: 100%;
+ margin-left: -4px;
+ margin-top: -4px
+}
+
+.gg-search::after{
+ content: "";
+ display: block;
+ box-sizing: border-box;
+ position: absolute;
+ border-radius: 3px;
+ width: 2px;
+ height: 8px;
+ background: currentColor;
+ transform: rotate(-45deg);
+ top: 10px;
+ left: 12px
+} 
+-------------------------------------------------------
+-------------------------------------------------------
+.gg-more-vertical-alt {
+ transform: scale(var(--ggs,1))
+}
+
+.gg-more-vertical-alt,
+.gg-more-vertical-alt::after,
+.gg-more-vertical-alt::before {
+ box-sizing: border-box;
+ position: relative;
+ display: block;
+ width: 4px;
+ height: 4px;
+ background: currentColor;
+ border-radius: 100%
+}
+
+.gg-more-vertical-alt::after,
+.gg-more-vertical-alt::before {
+ content: "";
+ position: absolute
+}
+
+.gg-more-vertical-alt::after {
+ left: 0;
+ top: 6px
+}
+
+.gg-more-vertical-alt::before {
+ top: -6px;
+ right: 0
+} 
+    </style>
+</head>
+<body>
+    <i class="gg-search"></i>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    
+
+    <i class="gg-more-vertical-alt"></i>
+</body>
+</html>
